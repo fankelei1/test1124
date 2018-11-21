@@ -6,7 +6,6 @@
 </template>
 
 <script>
-  // @ is an alias to /src
   import {mapState, mapActions} from 'vuex'
   import HelloWorld from '@/components/HelloWorld.vue'
   import api from '@/api'
