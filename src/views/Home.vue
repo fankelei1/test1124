@@ -1,8 +1,9 @@
 <template lang="jade">
-  div(class="home")
-    div(@click="buttonHandler1") button1
-    div(@click="buttonHandler2") button2
-    toast(v-model="isShow", text="我是提示信息", type="text", :time="2000", position="middle")
+  div(class="home",style="height:1000px")
+    div aaaaaaaaa
+    //div(@click="buttonHandler1") button1
+    //div(@click="buttonHandler2") button2
+    //toast(v-model="isShow", text="我是提示信息", type="text", :time="2000", position="middle")
 </template>
 
 
