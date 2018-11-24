@@ -2,7 +2,6 @@
   -var c = 'app'
   -var wrap = c + '__wrap'
 
-
   div(class="#{wrap}")
     //div(id="nav")
       router-link(to="/") Home |
