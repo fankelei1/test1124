@@ -5,7 +5,6 @@
     toast(v-model="isShow", text="我是提示信息", type="text", :time="2000", position="middle")
 </template>
 
-
 <script>
   import {mapState, mapActions} from 'vuex'
   import HelloWorld from '@/components/HelloWorld.vue'
