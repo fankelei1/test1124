@@ -7,11 +7,13 @@
       router-link(to="/") Home |
       router-link(to="/about") About
     div(@click="buttonHandler") button
-    drawer(:show.sync="isShowDrawer", showMode="push")
+
+    drawer(:show.sync="isShowDrawer", showMode="overlay", @on-hide="onHide")
       div(slot="drawer")
         div(class="aaa") 123123123
       div
         router-view
+
 </template>
 <script>
   import {Drawer} from 'vux'
@@ -29,6 +31,9 @@
       buttonHandler() {
         this.isShowDrawer = !this.isShowDrawer
         console.log(this.isShowDrawer)
+      },
+      onHide() {
+        console.log(123)
       }
     }
   }
@@ -41,9 +46,6 @@
       overflow-x: hidden;
     }
   }
-  .vux-drawer {
-
-  }
   .vux-drawer > .vux-drawer-content {
     width: 200px;
     height: 400px !important;
@@ -51,5 +53,6 @@
   }
   .vux-drawer > .vux-drawer-body > .drawer-mask {
     height: 400px !important;
+    background-color: rgba(0, 0, 0, .8) !important;
   }
 </style>

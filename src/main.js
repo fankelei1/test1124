@@ -7,7 +7,7 @@ import axios from './axios'
 Vue.config.productionTip = false
 
 Vue.prototype.axios = axios
-
+Vue.prototype.storage = window.localStorage
 
 new Vue({
   router,
