@@ -1,4 +1,5 @@
 # vue-vux
+<<<<<<< HEAD
 
 #### 项目介绍
 使用 vue-cli 3.0 搭建的基础工程，集成 vux 框架
@@ -35,3 +36,6 @@
 4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
 5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
 6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+=======
+the practice of the project about vue-vux
+>>>>>>> e6346091c0a490b7574ff238d7a2679a780df71f
