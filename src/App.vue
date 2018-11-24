@@ -9,7 +9,7 @@
     div(@click="buttonHandler") button
     drawer(:show.sync="isShowDrawer", showMode="push")
       div(slot="drawer")
-        div(class="aaa") 123
+        div(class="aaa") 123123123
       div
         router-view
 </template>
