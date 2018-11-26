@@ -26,6 +26,7 @@
       }
     },
     computed: {
+
       ...mapState(['wholeData'])
     },
     created() {
